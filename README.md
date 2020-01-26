@@ -23,9 +23,9 @@ Leetcode资料：
 
 #### 链表
 
-206链表逆序 Easy
+[206链表逆序 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode206.cpp)
 
-92链表逆序-2 Medium
+[92链表逆序-2 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode92.cpp)
 
 160求两个链表的交点 Easy
 
