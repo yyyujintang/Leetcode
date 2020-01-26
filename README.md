@@ -27,7 +27,7 @@ Leetcode资料：
 
 [92链表逆序-2 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode92.cpp)
 
-160求两个链表的交点 Easy
+[160求两个链表的交点 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode160.cpp)
 
 
 
