@@ -33,8 +33,10 @@ Leetcode资料：
 
 #### 栈、队列、堆
 
-[225队列实现栈 Easy]
+[225队列实现栈 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode225.cpp)
 
-[232使用栈实现队列 Easy]
+[232使用栈实现队列 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode232.cpp)
+
+[155包含min函数的栈 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode155.cpp)
 
 ### Day3
