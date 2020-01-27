@@ -29,8 +29,12 @@ Leetcode资料：
 
 [160求两个链表的交点 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode160.cpp)
 
-
-
 ### Day2
+
+#### 栈、队列、堆
+
+[225队列实现栈 Easy]
+
+[232使用栈实现队列 Easy]
 
 ### Day3
