@@ -46,7 +46,7 @@ Leetcode资料：
 
 #### 链表
 
-[142链表求环 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode141.cpp)
+[142链表求环 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode142.cpp)
 
 [86链表划分 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode86.cpp)
 
