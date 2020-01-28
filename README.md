@@ -43,3 +43,13 @@ Leetcode资料：
 [155包含min函数的栈 Easy](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode155.cpp)
 
 ### Day3
+
+#### 链表
+
+[141链表求环 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode141.cpp)
+
+[86链表划分 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode86.cpp)
+
+[138复杂的链表的深度拷贝 Medium](https://github.com/yyyujintang/Leetcode/blob/master/Leetcode138.cpp)
+
+
