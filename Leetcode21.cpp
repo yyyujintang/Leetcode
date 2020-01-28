@@ -1,5 +1,5 @@
 //Leetcode21 Easy
-//ÒÑÖªÁ½¸öÒÑÅÅĞòµÄÁ´±íÍ·½ÚµãÖ¸Õël1Óël2,½«ÕâÁ½¸öÁ´±íºÏ²¢£¬ºÏ²¢ºóÈÏÎªÓĞĞòµÄ£¬·µ»ØºÏ²¢ºóµÄÍ·½Úµã
+//å·²çŸ¥ä¸¤ä¸ªå·²æ’åºçš„é“¾è¡¨å¤´èŠ‚ç‚¹æŒ‡é’ˆl1ä¸l2,å°†è¿™ä¸¤ä¸ªé“¾è¡¨åˆå¹¶ï¼Œåˆå¹¶åè®¤ä¸ºæœ‰åºçš„ï¼Œè¿”å›åˆå¹¶åçš„å¤´èŠ‚ç‚¹
 #include<iostream>
 #include<set>
 using namespace std;
@@ -14,25 +14,23 @@ struct ListNode {
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-        ListNode temp_head(0);
-        ListNode *pre = &temp_head;
-        while (l1 && l2) {
-            if (l1->val < l2->val) {
-                pre->next = l1;
-                l1 = l1->next;
-            }
-            else {
-                pre->next = l2;
-                l2 = l2->next;
-            }
-            pre = pre->next;
+        ListNode *head,*p,*tp,**curr;
+        
+        if(l1 == NULL)  return l2;
+        else if(l2 == NULL)    return l1; 
+        
+        if(l1->val <= l2->val)  {head = l1;p = l2;}
+        else    {head = l2;p = l1;}
+        
+        curr = &head;
+        while(p != NULL){
+            while(*curr != NULL && (*curr)->val <= p->val)  curr = &((*curr)->next);
+            //å¾ªç¯ç»“æŸæ—¶ï¼Œå·²ç»éå†å®Œä¸€ä¸ªé“¾è¡¨æˆ–è€…å½“å‰é“¾è¡¨ä¸‹ä¸€ä¸ªå…ƒç´ æ›´å¤§ï¼Œéœ€è¦æ’å…¥
+            tp = *curr;
+            *curr = p;
+            p = tp;
         }
-        if (l1) {
-            pre->next = l1;
-        }
-        if (l2) {
-            pre->next = l1;
-        }
-        return temp_head.next;
+        
+        return head;
     }
 };
